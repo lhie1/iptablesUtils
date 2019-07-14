@@ -18,7 +18,7 @@ cd
 apt install -y wget dnsutils
 cd /usr/local
 rm -f /usr/local/iptables4ddns.sh
-wget https://raw.githubusercontent.com/arloor/iptablesUtils/master/iptables4ddns.sh;
+wget --no-check-certificate https://raw.githubusercontent.com/arloor/iptablesUtils/master/iptables4ddns.sh;
 chmod +x /usr/local/iptables4ddns.sh
 
 echo -n "local port:" ;read localport
